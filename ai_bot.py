@@ -10,7 +10,7 @@ import asyncio
 import uuid
 from datetime import datetime, timezone
 
-from crash_reporter import install_global_handler
+from crash_report import install_global_handler
 install_global_handler("kurtex-ai-scanner")  
 
 from telegram import Update
